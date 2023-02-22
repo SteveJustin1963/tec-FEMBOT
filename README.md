@@ -1,9 +1,7 @@
 # tec-FEMBOT
-fembot with anatomically correct silicon 
+A fembot with anatomically correct silicon 
 
-as a tech nerd, i have to love my female robot cyborg
-
-
+As a tech nerd, I have to love my female cyborg, she is more than a robot. 
 
  
  
