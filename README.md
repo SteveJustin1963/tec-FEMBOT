@@ -17,3 +17,9 @@ As a tech nerd, I have to love my female cyborg, she is more than a robot.
 It is a common misconception that Gina Gershon, an American actress, was the model for the character 6 of 9 in "Tripping the Rift." However, this is not accurate. The character 6 of 9 is a computer-generated image, which means that she was created using 3D modeling software and not based on any particular real-life model or actress. The character was voiced by actress Jenny McCarthy, who provided the character's voice and personality throughout the series.
 While Gershon did appear in the series as the voice of a different character, the show's creators have stated that she was not involved in the creation of 6 of 9's character design or modeling. Therefore, there is no connection between Gina Gershon and the creation of the character 6 of 9 in "Tripping the Rift."
 
+## The construction 
+of a sex bot can vary depending on the manufacturer and model. Some sex bots are made of silicone, which is a durable and flexible material that can closely mimic the texture and feel of human skin. Other sex bots may be made of TPE (thermoplastic elastomer), which is a softer and more affordable material that can also be used to create a realistic feel. Some are solid while others may have a hollow interior with a solid outer layer. 
+
+## Ref 
+- https://en.wikipedia.org/wiki/Sex_robot
+- 
