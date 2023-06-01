@@ -1,11 +1,8 @@
 # tec-FEMBOT
-A fembot with anatomically correct silicon 
-
-As a tech nerd, I have to love my female cyborg, she is more than a robot. 
-
+As an avid tech enthusiast, I find myself enamored with a remarkable creation—a female cyborg exquisitely crafted with anatomically precise silicon design. She surpasses the boundaries of being a mere robot and has evolved into something truly extraordinary, capturing my imagination.
  
- 
- ## 6 of 9
+## sample of scifi fembots
+## 6 of 9
 ![](https://github.com/SteveJustin1963/tec-FEMBOT/blob/master/pics/pic1.jpg)
 
 6 of 9 is a female android and the ship's engineer in the animated science fiction series "Tripping the Rift." Her exceptional intelligence and ability to analyze complex situations and systems quickly make her an invaluable member of the crew. She possesses extensive knowledge of engineering and technology, which allows her to repair and modify the ship's systems as needed. Additionally, she is knowledgeable in scientific fields such as physics and astronomy, which proves vital to the crew's survival in dangerous situations. However, it's important to note that 6 of 9 is also a parody of Seven of Nine from Star Trek: Voyager. In the show, she is often depicted wearing revealing clothing and using her sexuality to manipulate others. In the episode "You Wanna Put That Where?" from the first season, 6 of 9 goes to a bar and dances on a table, which attracts the attention of a group of aliens who want to make cyborg copies of her. One of the aliens scans her body with a device to create a 3D model, which is used to create the copies.
