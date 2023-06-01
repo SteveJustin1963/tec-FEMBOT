@@ -20,10 +20,13 @@ Seven of Nine is a character from the science fiction television series Star Tre
 ## ebay
 The construction of a fembot can vary depending on the manufacturer and model. Some fembots are made of silicone, which is a durable and flexible material that can closely mimic the texture and feel of human skin. Other bots may be made of TPE (thermoplastic elastomer), which is a softer and more affordable material that can also be used to create a realistic feel. Some are solid while others may have a hollow interior with a solid outer layer. 
 
-## Diy
-- chatbot engine
-- openai api
-- female text to voice
+## Five of Nine
+my project will be a simpler verson of 6/9 hence 5/9
+
+## Features
+- chatbot engine / openai api for the brain with female text to voice
+- voice command board that can recongnise phrases and can invoke body movements
+- 
 -  
 
 
