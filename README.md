@@ -20,16 +20,23 @@ Not a female android but is part of this model; Seven of Nine is a character fro
 
 ![image](https://github.com/SteveJustin1963/tec-FEMBOT/assets/58069246/7bdde6aa-8150-4d83-b293-7fe620645a38)
 
-## Five of Nine
-- my project will be a simpler verson of 6/9 hence 5/9
-- chatbot engine 
-- brain
-  - openai api for the brain with female text to voice
-  - tec-brain
+## My project Five of Nine - 5of9
+- will be a simpler verson of 6/9 hence 5/9
+
+various parts
+- chatbot engine + brain openai api + female text to voice (t2v)
+- tec-brain
 - voice command board that can recongnise phrases and can invoke body movements
 
+
 ## The construction 
-of a fembot can vary depending on the manufacturer and model. Some fembots are made of silicone, which is a durable and flexible material that can closely mimic the texture and feel of human skin. Other bots may be made of TPE (thermoplastic elastomer), which is a softer and more affordable material that can also be used to create a realistic feel. Some are solid while others may have a hollow interior with a solid outer layer. 
+of a fembot can vary depending on parts from other vendor or diy parts
+- Some made of silicone, which is a durable and flexible material that can closely mimic the texture and feel of human skin. 
+- Other made of TPE (thermoplastic elastomer), which is a softer and more affordable material that can also be used to create a realistic feel. 
+- Some are solid 
+- while others may have a hollow interior with a solid outer layer.
+- some are frames with cover plates made of hard or soft part
+-  
 
 
 - 
