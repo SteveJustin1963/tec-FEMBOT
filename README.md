@@ -1,4 +1,7 @@
 # tec-FEMBOT
+
+![image](https://github.com/SteveJustin1963/tec-FEMBOT/assets/58069246/0522255c-38b4-45fb-8a30-c029f357ac25)
+
 As an avid tech enthusiast, I find myself enamored with a remarkable creation—a female cyborg exquisitely crafted with anatomically precise silicon design. She surpasses the boundaries of being a mere robot and has evolved into something truly extraordinary, capturing my imagination.
  
 
