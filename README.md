@@ -28,11 +28,5 @@ of a fembot can vary depending on parts from other vendor or diy parts
 - some are frames with cover plates made of hard or soft part
 -  
 
+  
 
-- 
--  
-
-
-## Ref 
-- https://en.wikipedia.org/wiki/Sex_robot
-- 
