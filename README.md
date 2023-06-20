@@ -5,14 +5,19 @@
 As an avid tech enthusiast, I find myself enamored with a remarkable creation—a female cyborg exquisitely crafted with anatomically precise silicon design. She surpasses the boundaries of being a mere robot and has evolved into something truly extraordinary, capturing my imagination.
  
 
-## My project Five of Nine - 5of9
-- will be a simpler verson of 6/9 hence 5/9
 
-various parts
-- chatbot engine + brain openai api + female text to voice (t2v)
+## brain
+- chatbot 
+- gpt api 
+- female text to voice (t2v)
 - tec-brain
-- voice command board that can recongnise phrases and can invoke body movements
+- voice command board that can recognize phrases and can invoke body movements
 
+## body
+- ai generated ideas, convert to sketch then cad
+- 3d cad clean up mesh and slt to cardboard layers or clay modeling 
+- plastic and metal skeletal, vacuum formed plastic skin panels
+- 
 
 ## The construction 
 of a fembot can vary depending on parts from other vendor or diy parts
