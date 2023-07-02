@@ -3,23 +3,19 @@ import numpy as np
 import tensorflow as tf
 import asyncio
 import openai
+import re
 
-# Define the environment and related variables
-env = gym.make('CartPole-v1')
-num_states = env.observation_space.shape[0]
-num_actions = env.action_space.n
+# Define a neural network model using TensorFlow
+num_states = 10  # Number of states should be set according to your environment
+num_actions = 3  # Number of actions should be set according to your environment
 
-# Define the neural network model using TensorFlow
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(64, activation='relu', input_shape=(num_states,)),
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(num_actions, activation='linear')
 ])
 
-optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
-loss_function = tf.keras.losses.MeanSquaredError()
-
-# Define the asynchronous memory storage and retrieval
+# Class to handle memory storage and retrieval
 class Memory:
     def __init__(self, max_size):
         self.max_size = max_size
@@ -42,7 +38,7 @@ async def store_experience(experience):
 async def retrieve_experience(batch_size):
     return await memory.sample(batch_size)
 
-# Define the asynchronous ChatGPT interaction
+# Functions for chat interaction
 async def chat_gpt_interaction():
     while True:
         user_input = input("Enter your message: ")
@@ -56,7 +52,8 @@ async def generate_chat_response(user_input):
         max_tokens=50,
         temperature=0.7,
         n=1,
-        stop=None
+        stop=None,
+        temperature=0.7
     )
     return response.choices[0].text.strip()
 
@@ -65,6 +62,7 @@ async def process_chat_response(chat_response):
     if decision == "Action":
         await perform_action()
 
+# Function to decide action based on chat response
 async def make_decision(chat_response):
     is_good_action = await evaluate_good_action(chat_response)
     is_moral_action = await evaluate_moral_action(chat_response)
@@ -77,17 +75,39 @@ async def make_decision(chat_response):
     else:
         return "No Action"
 
+# Functions to evaluate whether action is good and moral
 async def evaluate_good_action(chat_response):
-    await asyncio.sleep(0.1)
-    return True
+    # A good action is assumed if the word 'good' is in the response
+    return 'good' in chat_response.lower()
 
 async def evaluate_moral_action(chat_response):
-    await asyncio.sleep(0.1)
-    return True
+    # A moral action is assumed if the word 'moral' is in the response
+    return 'moral' in chat_response.lower()
 
+# Function to perform an action
 async def perform_action():
     print("Performing action")
 
+# Function to preprocess the state
+def preprocess_state(chat_response):
+    # Extract the first number from the chat response
+    numbers = re.findall(r'\d+', chat_response)
+    if numbers:
+        return float(numbers[0])
+    else:
+        return 0.0  # default state
+
+# Personality class for the robot
+class Personality:
+    def __init__(self):
+        self.traits = ['joyful', 'curious', 'courageous', 'respectful']
+
+    def get_trait(self):
+        return np.random.choice(self.traits)
+
+personality = Personality()
+
+# Training loop
 async def training_loop():
     for episode in range(num_episodes):
         state = env.reset()
@@ -116,7 +136,9 @@ async def training_loop():
             if done:
                 break
 
-        print(f"Episode {episode}: Reward = {episode_reward}")
+        # Self-awareness and Personality
+        trait = personality.get_trait()
+        print(f"Episode {episode}: Reward = {episode_reward}, Trait = {trait}")
 
         # Wait for a short duration to allow other tasks to execute
         await asyncio.sleep(0.01)
