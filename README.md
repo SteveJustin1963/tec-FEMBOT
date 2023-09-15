@@ -24,7 +24,8 @@ of a fembot can vary depending on parts from other vendor or diy parts
 - Some made of silicone, which is a durable and flexible material that can closely mimic the texture and feel of human skin. 
 - Other made of TPE (thermoplastic elastomer), which is a softer and more affordable material that can also be used to create a realistic feel. 
 - Some are solid 
-- while others may have a hollow interior with a solid outer layer.
+- while others may have a hollow interior with a solid outer layer of plastic etc,
+- formed over wire frame with rubber balloon inflated bewtween the wrire then a casting taken off that.
 - some are frames with cover plates made of hard or soft part
 -  
 
