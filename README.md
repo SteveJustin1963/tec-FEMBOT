@@ -52,7 +52,7 @@ A couple of additional points:
 2. The `preprocess_state()` function that is supposed to transform the chat response into a state that the model can use is still not defined. You need to implement this function according to your specific use case.
 3. The `evaluate_good_action()` and `evaluate_moral_action()` functions return `True` unconditionally after sleeping for 0.1 seconds. If these functions are supposed to perform actual evaluation of the actions, you should update them accordingly.
 
- note, this is an illustrative example of how you might structure your code. In practice, you'll need to customize this to fit your specific use case and environment. Also, certain aspects like error handling, edge cases, and real-time adjustments are not considered in this example.
+note, this is an illustrative example of how you might structure your code. In practice, you'll need to customize this to fit your specific use case and environment. Also, certain aspects like error handling, edge cases, and real-time adjustments are not considered in this example.
 
  Adding error handling, edge case management, and real-time adjustments greatly depends on your specific use case. Here, I will outline some general methods that might be useful:
 
