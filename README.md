@@ -41,61 +41,7 @@ By integrating AI-generated concepts, CAD precision, versatile prototyping metho
 
 
 
- 
-
-## Interactive Reinforcement Learning Agent (IRLA)
-
-- **Framework**: Utilize TensorFlow and OpenAI's Gym for reinforcement learning.
-- **Policy Interaction**: Define how the RL policy interacts with the GPT API.
-- **Safety Constraints**: Include safety checks in the RL training phase to prevent undesired learning outcomes.
-
-### Additional Points
-
-1. **Error Handling**: Utilize Python's `try` and `except` blocks for error detection and management, especially when dealing with external APIs.
-
-    ```python
-    try:
-        response = await openai.Completion.create(...)
-    except Exception as e:
-        print(f"An error occurred: {str(e)}")
-    ```
-
-2. **Edge Cases**: Before passing data to the model, validate its integrity. 
-
-    ```python
-    def preprocess_state(chat_response):
-        numbers = re.findall(r'\d+', chat_response)
-        if numbers:
-            return float(numbers[0])
-        else:
-            return None  # return None or a default state
-    ```
-
-3. **Real-Time Adjustments**: Use a configuration file to manage dynamic parameters such as the OpenAI API's `temperature`, thus allowing for easy adjustments without code changes.
-
----
-
-Note: Thorough testing is imperative for each phase of the development process. Be prepared to adapt the design based on performance metrics and user feedback.
-
-zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
- 
-
-
-
-
-
-
-## The construction 
-of a fembot can vary depending on parts from other vendor or diy parts
-- Some made of silicone, which is a durable and flexible material that can closely mimic the texture and feel of human skin. 
-- Other made of TPE (thermoplastic elastomer), which is a softer and more affordable material that can also be used to create a realistic feel. 
-- Some are solid 
-- while others may have a hollow interior with a solid outer layer of plastic etc,
-- formed over wire frame with rubber balloon inflated bewtween the wrire then a casting taken off that.
-- some are frames with cover plates made of hard or soft part
--  
-
-## IRLA
+ ## IRLA
 interactive reinforcement learning agent using TensorFlow and OpenAI's Gym library. It appears that it may be attempting to simulate a scenario where a reinforcement learning agent interacts with users through GPT-3 while concurrently learning from a gym environment. The agent takes an action in the gym environment and gets feedback (reward) based on which it improves its policy.
 
 Remember to replace `'YOUR_API_KEY'` with your actual OpenAI API key.
@@ -146,8 +92,4 @@ elif responses_becoming_too_diverse:
 ```
 
 Remember, these are just examples and will need to be adapted to your specific application. Always thoroughly test your code to make sure it handles errors and edge cases correctly and can adapt to real-time changes.
-
-
-
-  
 
