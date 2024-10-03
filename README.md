@@ -1,4 +1,4 @@
-# tec-FEMBOT
+# tec-FEMBOT - another punch yourself in the nuts project
 
 
 The tech enthusiast finds himself enamored with the creation of the female cyborg, the Fembot, an exquisitely crafted with anatomically precise silicon parts gathered from the four corners of online shops and hacked together with love to surpasses the boundaries of being a mere pile of junk and evolved into something truly extraordinary, capturing his imagination.
