@@ -10,75 +10,23 @@ Every n00b and nerd finds himself enamored with the need to create his female cy
 ### Project Objective:
 Design and develop **tec-FEMBOT**, a female cyborg with advanced human-like interaction capabilities, utilizing MINT programming language, AI technologies, and reinforcement learning to achieve seamless, adaptive behaviors.
 
----
 
-### Phases Overview:
+### Design
+- hack together skeletal framework, joints, and skin (silicone or TPE) head etc , whatever you want
+- Install touch and proximity sensors on the surface to detect and react to external stimuli.
+- the brain, use chatgpt for voice and mic in the iphone app and link mint to chatgpt via wifi serial api
+- motors and Actuators, servo motors etc arms, head, for legs maybe just use wheels
+- TEC1 Z80-based microcontroller running MINT for core logic.
 
-1. **Conceptualization and Design**
-2. **Hardware Development**
-3. **Software Development**
-4. **Integration and Testing**
-5. **Final Deployment and Feedback Iteration**
 
----
-
-### 1. Conceptualization and Design
-
-#### Objectives:
-- Define the functional and aesthetic requirements of tec-FEMBOT.
-- Outline the interactive capabilities and movements.
-  
-#### Tasks:
-1. **Brainstorming and Ideation**:
-   - Use AI-generated concepts to inspire the design.
-   - Sketch initial design concepts of the cyborg’s appearance and functionality.
-2. **CAD Design**:
-   - Develop detailed 3D CAD models of the cyborg’s body and internal structures.
-   - Focus on material selection for skeletal framework, joints, and skin (silicone or TPE).
-3. **Sensor Placement**:
-   - Strategically design touch-sensitive areas to enhance user interaction.
-4. **Brain Design**:
-   - Define the scope for tec-FEMBOT's brain, incorporating both conversational and movement control components.
-
----
-
-### 2. Hardware Development
-
-#### Objectives:
-- Assemble the mechanical and electronic systems for movement, voice, and interaction.
-
-#### Tasks:
-1. **Skeletal Framework**:
-   - Construct a durable, flexible skeletal frame using lightweight metals and plastics.
-2. **Skin Application**:
-   - Apply silicone or TPE to create a lifelike appearance and texture.
-3. **Motors and Actuators**:
-   - Install servo motors for smooth and precise movement in arms, legs, and head.
-   - Integrate actuators for fine movement and control.
-4. **Sensor Integration**:
-   - Install touch and proximity sensors on the surface to detect and react to external stimuli.
-5. **Audio Components**:
-   - Implement voice output hardware (speakers) for the T2V system.
-6. **Microcontroller Setup**:
-   - Deploy a Z80-based microcontroller to handle the MINT language interpreter and run the core logic.
-
----
-
-### 3. Software Development
-
-#### Objectives:
-- Program the brain of tec-FEMBOT using MINT for control, movement, and interaction.
-
-#### Tasks:
-1. **Core Programming**:
-   - Implement the MINT code for core functionalities: `MOVE`, `SPEAK`, and `INTERACT`.
-   - Define an `INIT` function to initialize basic operations.
-   - Set up loops (`/U`) for ongoing interaction and response.
-2. **Integration of GPT for Complex Conversations**:
-   - Interface the GPT API for natural language responses and integrate it into the IRLA (Interactive Reinforcement Learning Agent).
-3. **Reinforcement Learning (IRLA)**:
-   - Develop algorithms for learning based on user interactions.
-   - Use TensorFlow or compatible platforms to simulate and train learning agents.
+### code
+- MINT core functios.  `MOVE`, `SPEAK`, and `INTERACT`.
+- `INIT` function to initialize basic operations.
+- Set up loops (`/U`) for ongoing interaction and response.
+- use chatGPT for Complex Conversations, API for natural language responses and integrate it IRLA
+- Interactive Reinforcement Learning Agent IRLA
+- Develop algorithms for learning based on user interactions.
+-    - Use TensorFlow or compatible platforms to simulate and train learning agents.
 4. **Control Algorithms**:
    - Design movement algorithms based on input commands, adjusting for real-time feedback.
 5. **Error Handling and Edge Cases**:
