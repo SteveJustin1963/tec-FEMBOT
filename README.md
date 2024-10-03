@@ -1,6 +1,3 @@
-# tec-FEMBOT - another punch yourself in the nuts project
-
-
 Every n00b and nerd finds himself enamored with the need to create his female cyborg Fembot, crafted from anatomically precise silicon wonders and junk parts, hacked together late in the night, surpassing all boundaries in the name of love…
 
 - cyborg human-like interaction capabilities,
