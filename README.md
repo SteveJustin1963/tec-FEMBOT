@@ -12,7 +12,9 @@ Every n00b and nerd finds himself enamoured with the need to create his female c
 
 
 ### Design
-- hack together skeletal framework, joints, and skin (silicone or TPE) head etc , whatever you want
+- hack together skeletal framework, joints, add motors, air muscles etc
+- add silicone or TPE skin, breasts, vagina, but etc
+- add a beautiful scifi inspired head or whatever you can hack or knocks off
 - motors and Actuators, servo motors etc arms, head, for legs maybe just use wheels
 -  sensors
   - surface, to detect and react to external stimuli.
