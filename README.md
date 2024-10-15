@@ -1,10 +1,14 @@
-Every n00b and nerd finds himself enamored with the need to create his female cyborg Fembot, crafted from anatomically precise silicon wonders and junk parts, hacked together late in the night, surpassing all boundaries in the name of love…
+### Warning
+A very hard and complex and ill structured project that will see you apprehend for lack of moral values
+
+
+Every n00b and nerd finds himself enamoured with the need to create his female cyborg Fembot, crafted from anatomically precise silicon wonders and junk parts, hacked together late in the night, surpassing all boundaries in the name of love…
 
 - cyborg human-like interaction capabilities,
-- utilizing MINT programming language,
+- utilising MINT programming language,
 - AI technologies,
 - and reinforcement learning
-- achieve seamless, adaptive behaviors.
+- achieve seamless, adaptive behaviours.
 
 
 ### Design
@@ -14,23 +18,23 @@ Every n00b and nerd finds himself enamored with the need to create his female cy
   - surface, to detect and react to external stimuli.
   - proximity, ultrasonic sensor, distance, avoid
   - infrared sensors
-  - gyroscope or accelerometer for movement/ orientation
+  - gyroscope or accelerator meter for movement/ orientation
 
 
 ### code
-- chatgpt over iphone  
-- MINT core logic functios. eg  `MOVE`, `SPEAK`, and `INTERACT`.
-- `INIT` function to initialize basic operations.
+- embedded mini PC running LLM with mic and speaker and interfaced to tec1
+- MINT core logic functions. eg  `MOVE`, `SPEAK`, and `INTERACT`.
+- `INIT` function to initialise basic operations.
 - Set up loops (`/U`) for ongoing interaction and response.
-- use chatGPT for Complex Conversations, API for natural language responses and integrate it IRLA
-- Interactive Reinforcement Learning Agent IRLA
+- LLM can handle basic conversations,
+- look into Interactive Reinforcement Learning Agent IRLA
 - Develop algorithms for learning based on user interactions.
 - self learning agents.
 - movement algorithms based on input commands, adjusting for real-time feedback.
-- errors, unrecognized inputs, mechanical faults, incorrect movements, power loss, recovery actions.
-- ChatGPT autonomy feedback loop
+- errors, unrecognised inputs, mechanical faults, incorrect movements, power loss, recovery actions.
+- LLM to run in a autonomy loop with sensory feedback 
   - real-time commands
-  - interpret sensor data - server-client architecture/ cloud integration - IFTTT**, **Zapier**, or **Node-RED**
+  - interpret sensor data - server-client architecture/ cloud integration - 
   - send motor controls 
 - obstacle avoidance, path planning, or even object detection using sensors like a camera.
 - natural language commands to control the robot or adjust its autonomy.
@@ -38,24 +42,20 @@ Every n00b and nerd finds himself enamored with the need to create his female cy
 - 
 
 ### mint code
-- simulates a basic communication link between a fembot and a ChatGPT
-- We define variables for sensor reading, AI response, and action to take.
+- fembot-monitor in mint code links to local LLM
+- process variables from sensor readings,  then LLM responds and issues action commands to servos etc
 - The `S` function simulates reading sensor data. In this example, it generates a random number between 0 and 99.
-- The `A` function simulates sending data to the AI and getting a response. In a real implementation, this would make an API call to the ChatGPT system. Here, it simply checks if the sensor reading is above 50.
+- The `A` function simulates sending data to the LLM and getting a response In a real time
+it simply checks if the sensor reading is above 50.
 - The `I` function interprets the AI response and decides on an action. In this simple example, it sets the action to 1 if the response is 1, and 0 otherwise.
 - The `P` function performs the action, which in this case just prints "Moving forward" or "Stopping".
 - The `M` function is the main loop that ties everything together. It continuously reads the sensor, gets an AI response, interprets it, and performs the action.
 
 ### To use 
-1. Load it into your MINT interpreter.
-2. The code will automatically start running the main loop `M`.
-3. You'll see continuous output of sensor readings, AI responses, and actions.
-
-In a real-world implementation, you would need to:
+-   MINT interpreter  main loop `M`.
+- You'll see continuous output of sensor readings, AI responses, and actions.
 - Replace the `S` function with actual sensor reading code.
-- Modify the `A` function to make real API calls to your ChatGPT system.
+- Modify the `A` function to make local LLM calls.
 - Expand the `I` and `P` functions to handle more complex responses and actions.
 - Add error handling and potentially more sophisticated control flow.
-
-This code provides a basic framework that you can build upon to create more complex interactions between your fembot and a ChatGPT-like AI system.
-
+ 
