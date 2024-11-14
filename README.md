@@ -1,7 +1,6 @@
- 
-  Warning
- a complex and ill structured project that will see you apprehend for lack of moral values...
+Warning, a complex and ill structured project that will see you apprehended for lack of moral values...
 
+be safe...maybe you shud just work on https://github.com/SteveJustin1963/tec-ROBOT
 
 Every n00b and nerd finds himself enamoured with the need to create his female cyborg Fembot, crafted from anatomically precise silicon wonders and junk parts, hacked together late in the night, surpassing all boundaries in the name of love…
 
@@ -44,21 +43,5 @@ Every n00b and nerd finds himself enamoured with the need to create his female c
 - Integrate a microphone and speech-to-text
 - 
 
-### mint code
-- fembot-monitor in mint code links to local LLM
-- process variables from sensor readings,  then LLM responds and issues action commands to servos etc
-- The `S` function simulates reading sensor data. In this example, it generates a random number between 0 and 99.
-- The `A` function simulates sending data to the LLM and getting a response In a real time
-it simply checks if the sensor reading is above 50.
-- The `I` function interprets the AI response and decides on an action. In this simple example, it sets the action to 1 if the response is 1, and 0 otherwise.
-- The `P` function performs the action, which in this case just prints "Moving forward" or "Stopping".
-- The `M` function is the main loop that ties everything together. It continuously reads the sensor, gets an AI response, interprets it, and performs the action.
+  
 
-### To use 
--   MINT interpreter  main loop `M`.
-- You'll see continuous output of sensor readings, AI responses, and actions.
-- Replace the `S` function with actual sensor reading code.
-- Modify the `A` function to make local LLM calls.
-- Expand the `I` and `P` functions to handle more complex responses and actions.
-- Add error handling and potentially more sophisticated control flow.
- 
