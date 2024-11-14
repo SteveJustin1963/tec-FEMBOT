@@ -1,9 +1,6 @@
- ![image](https://github.com/user-attachments/assets/4659e135-6457-4093-89e2-3c6681b70e49)
-
-
-
-### Warning
-A very hard and complex and ill structured project that will see you apprehend for lack of moral values
+ 
+  Warning
+ a complex and ill structured project that will see you apprehend for lack of moral values...
 
 
 Every n00b and nerd finds himself enamoured with the need to create his female cyborg Fembot, crafted from anatomically precise silicon wonders and junk parts, hacked together late in the night, surpassing all boundaries in the name of love…
